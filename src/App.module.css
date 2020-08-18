@@ -14,12 +14,11 @@ flex-direction: column;
 
 }
 
-.img {
-    
+.img {   
 align-self: center;
 width: 200px;
 margin-top: 20px;
-
+height: 80px;
 }
 
 @media (max-width : 770px){

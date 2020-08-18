@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import {Cards , Chart, CountryPicker} from './components'
 import {fetchData} from './api'
 import img from './images/images.jpeg'
+import Footer from './components/Footer/Footer.js'
 class App extends Component {
 
 state = {
@@ -39,7 +40,7 @@ return (
 <Cards data = {data} country = {country} />
 <CountryPicker handleCountryChange= {this.handleCountryChange} />
 <Chart   data = {data} country = {country}/>
-
+<Footer />
 </div>
 )
 }
